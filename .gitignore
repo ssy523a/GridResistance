@@ -1,0 +1,26 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# PowerShell-generated cache
+Microsoft/
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
