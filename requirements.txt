@@ -1,0 +1,7 @@
+# Tested with Python 3.13.15
+gmsh==4.15.2
+numpy==2.5.2
+pyvista==0.48.4
+PySide6==6.11.2
+pyvistaqt==0.12.0
+scikit-fem==12.0.2
