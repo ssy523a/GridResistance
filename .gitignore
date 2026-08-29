@@ -1,16 +1,18 @@
-# Python virtual environment
-.venv/
-venv/
+# Python virtual environments
+/.venv/
+/venv/
 
 # Python cache
 __pycache__/
 *.py[cod]
 
-# PyInstaller build artifacts
-build/
-dist/
+# Windows PyInstaller generated artifacts
+/build/
+/dist/
+
+# Ignore generated specs, but keep the maintained Windows build spec
 *.spec
-*.app/
+!GridResistanceAnalyzer.spec
 
 # Test and tool caches
 .pytest_cache/
@@ -18,7 +20,7 @@ dist/
 .ruff_cache/
 
 # PowerShell-generated cache
-Microsoft/
+/Microsoft/
 
 # Environment variables and secrets
 .env
@@ -26,7 +28,13 @@ Microsoft/
 *.pem
 *.key
 
-# Editor and OS files
+# Editor files
 .vscode/
+
+# macOS generated artifacts
+*.app/
 .DS_Store
+
+# Windows OS-generated files
 Thumbs.db
+Desktop.ini
