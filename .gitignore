@@ -19,6 +19,9 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
+# Local debug output
+/debug.log
+
 # PowerShell-generated cache
 /Microsoft/
 
